@@ -31,38 +31,6 @@ Ask your AI assistant to:
 
 ## Quick Start Guide
 
-### For Gemini CLI
-
-To get started with Gemini CLI, you can use the official Gemini CLI extension for SurveySparrow.
-
-To install the extension, run the following command in your terminal:
-
-```bash
-gemini extensions install https://github.com/surveysparrow/surveysparrow-mcp
-```
-
-Once you have the extension installed, start Gemini CLI by running:
-
-```bash
-gemini
-```
-
-Then, authenticate with your SurveySparrow account by running the following command inside Gemini CLI:
-
-```
-/mcp auth surveysparrow
-```
-
-This will open a browser window to complete the OAuth authentication process. After authenticating, all the SurveySparrow tools will be available.
-
-A few example prompts to try:
-
-```
-Create a CSAT survey to collect customer feedback
-List all my surveys
-Show me responses for survey 123456789
-```
-
 ### 🔐 1) Authentication Setup (OAuth 2.0)
 
 SurveySparrow MCP requires OAuth for every user on first connect.
@@ -87,17 +55,6 @@ No server install needed.
 - Add the URL in your MCP-capable client and authorize
 
 ## 🛠️ IDE Integration
-
-### Gemini CLI
-
-```bash
-# Install extension
-gemini extensions install https://github.com/surveysparrow/surveysparrow-mcp
-
-# Start and authenticate
-gemini
-/mcp auth surveysparrow
-```
 
 ### Cursor IDE
 
