@@ -1,0 +1,11 @@
+{
+  "name": "surveysparrow",
+  "description": "Create, share, and analyze surveys and responses with SurveySparrow.",
+  "version": "1.0.0",
+  "contextFileName": "SURVEYSPARROW.md",
+  "mcpServers": {
+    "surveysparrow": {
+      "httpUrl": "https://integrations.surveysparrow.com/surveysparrow/mcp"
+    }
+  }
+}

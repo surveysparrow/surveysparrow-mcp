@@ -1,0 +1,6 @@
+# Registry auth private keys — never commit
+key.pem
+*.pem
+
+# OS / editor cruft
+.DS_Store

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.surveysparrow/mcp",
+  "title": "SurveySparrow",
+  "description": "SurveySparrow MCP. Create, edit, preview, publish, share, and analyze surveys and their responses from any MCP-compatible AI assistant.",
+  "version": "1.0.0",
+  "websiteUrl": "https://developers.surveysparrow.com",
+  "repository": {
+    "url": "https://github.com/surveysparrow/surveysparrow-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://integrations.surveysparrow.com/surveysparrow/mcp"
+    }
+  ]
+}
